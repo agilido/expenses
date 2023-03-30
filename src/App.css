@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.css';
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+  width: 35vw;
+}
+
+.addingBox {
+  display: flex;
+  position: relative;
+}
+
+.columnStyle {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.submitButtonBox {
+  align-self: flex-end;
+}
+button {
+  width: 100px;
+}
+
+.sum {
+  margin-top: 20px;
+}
+
+.ant-btn-primary {
+  background-color: #e6e6e6 !important;
+  color: black !important;
+  border: solid 1px black !important;
+  border-radius: 5px !important;
+}
